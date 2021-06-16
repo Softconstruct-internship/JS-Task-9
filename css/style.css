@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.main_container {
+  padding: 100px; }
+  .main_container .containerTable {
+    border: 2px solid black;
+    display: inline-block; }
+    .main_container .containerTable .container {
+      position: relative; }
+      .main_container .containerTable .container .id {
+        padding-right: 20px; }
+      .main_container .containerTable .container .name {
+        padding-right: 150px; }
+      .main_container .containerTable .container .email {
+        padding-right: 20px;
+        right: 0;
+        position: absolute; }

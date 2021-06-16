@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main_container {
+  padding: 100px;
+  .containerTable {
+    border: 2px solid black;
+    display: inline-block;
+    .container {
+      position: relative;
+      .id {
+        padding-right: 20px;
+      }
+      .name {
+        padding-right: 150px;
+      }
+      .email {
+        padding-right: 20px;
+        right: 0;
+        position: absolute;
+      }
+    }
+  }
+}
